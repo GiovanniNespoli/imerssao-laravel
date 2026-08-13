@@ -1,4 +1,4 @@
 <div>
-    projects show
-    @dump($project)
+    {{  $project->title }}
+    {{  $project->title }}
 </div>
