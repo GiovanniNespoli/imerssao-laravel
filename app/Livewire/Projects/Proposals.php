@@ -5,12 +5,12 @@ namespace App\Livewire\Projects;
 use App\Models\Projects;
 use Livewire\Component;
 
-class Show extends Component
+class Proposals extends Component
 {
     public Projects $project;
 
     public function render()
     {
-        return view('livewire.projects.show');
+        return view('livewire.projects.proposals');
     }
 }
